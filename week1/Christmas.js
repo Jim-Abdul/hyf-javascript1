@@ -107,18 +107,24 @@ console.log('the value of variable w will be my weight ');
 //For example:
 //let x = 9;
 //let y = 'Hello';
-//if (...) {
-//    console.log('SAME TYPE');
-//}
-// TODO -> add a way of giving feedback if your variables don't have the same type
+//if (...) { console.log('SAME TYPE');}
+
 //9. If x equals 7, and the only other statement is x = x % 3, what would be the new value of x ?
 //9.1 Add at least 3 console.log statements in which you show that you understand what % does.
 'use strict';
 let x = 7;
 x = x % 3;
-console.log("the new value for x will be: 1");
 console.log(x);
-console.log("the operation % calculate the Remainder of the division between tow values ");
+//The value of x will be: 1
+let x = 7;
+x = x % 5;
+console.log(x);
+//The value of x will be : 2
+let x = 7;
+x = x % 4;
+console.log(x);
+//The value of x will be : 3
+console.log("the operation % calculate the Remainder of the division between the values ");
 //10. Write a program to answer the following questions:
 //10.1 Can you store multiple types in an array ? Numbers and strings ? Make an example that illustrates your answer.
 //10.2 Can you compare infinities ? (Not in Eyad's world) - does 6/0 === 10/0? How can you test this?
