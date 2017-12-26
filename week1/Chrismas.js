@@ -104,30 +104,35 @@ console.log('the value of variable w will be my weight ');
 
 //8.5 Now compare the types of your different variables with one another.
 //8.6 Make sure to also show a message when the variables you are comparing are not the same type.
-
 //For example:
-
 //let x = 9;
 //let y = 'Hello';
-
 //if (...) {
 //    console.log('SAME TYPE');
 //}
-
-
-
-
-
-
 // TODO -> add a way of giving feedback if your variables don't have the same type
-
 //9. If x equals 7, and the only other statement is x = x % 3, what would be the new value of x ?
-//    9.1 Add at least 3 console.log statements in which you show that you understand what % does.
-
+//9.1 Add at least 3 console.log statements in which you show that you understand what % does.
+'use strict';
+let x = 7;
+x = x % 3;
+console.log("the new value for x will be: 1");
+console.log(x);
+console.log("the operation % calculate the Remainder of the division between tow values ");
 //10. Write a program to answer the following questions:
 //10.1 Can you store multiple types in an array ? Numbers and strings ? Make an example that illustrates your answer.
-
 //10.2 Can you compare infinities ? (Not in Eyad's world) - does 6/0 === 10/0? How can you test this?
-
 //10.3 Add console.log statements to the above program's in which you show that you understand the concepts (just like you've done in the above assignments).
+'use strict';
 
+let multi = ["Hello", 2018, true];
+console.log(multi);
+console.log("We can store multiple types in an array.");
+
+let x = 6;
+let y = 10;
+if (x / 0 === y / 0) {
+    console.log(true);
+} else {
+    console.log(false);
+}
