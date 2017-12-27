@@ -86,22 +86,22 @@ console.log(myString.length);
 
 //8. Write a program that checks the types of two variables and prints out SAME TYPE if they are the same type.
 //8.1 First declare at least four variables and assign them different data types.
-let myLength = 185;
-let myAge    = true;
-let myHairColor = 'brown';
-let myHobbies = ['reading', 'swimming', 'internet'] 
+let name = 'Jim';
+let age = 34;
+let arr = ['red', 'blue', 'black'];
+let answer = false;
 //8.2 For each variable write a console.log statement that logs the value
-console.log(myLength);
-console.log(myAge);
-console.log(myHairColor);
-console.log(hobbies);
-//let foo = 3;
-//console.log('The value of my variable foo is: ' + foo);
-
+console.log(name);
+console.log(age);
+console.log(arr);
+console.log(answer);
 //8.3 Now write a console.log statement wherein you first explain in words what you think the type of your variables is.
 console.log('the value of variable w will be my weight ');
 //8.4 Now use typeof to log the actual type of your variables.
-
+console.log(typeof name);
+console.log(typeof age);
+console.log(typeof arr);
+console.log(typeof answer);
 //8.5 Now compare the types of your different variables with one another.
 //8.6 Make sure to also show a message when the variables you are comparing are not the same type.
 //For example:
