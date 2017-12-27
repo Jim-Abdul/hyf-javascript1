@@ -104,10 +104,21 @@ console.log(typeof arr);
 console.log(typeof answer);
 //8.5 Now compare the types of your different variables with one another.
 //8.6 Make sure to also show a message when the variables you are comparing are not the same type.
-//For example:
-//let x = 9;
-//let y = 'Hello';
-//if (...) { console.log('SAME TYPE');}
+if (name === age) {
+    console.log(name + 'and' + age + 'are the same type');    
+} else if(name === arr){
+    console.log(name + 'and' + arr + 'are the same type');
+} else if(name === answer){
+    console.log(name + 'and' + answer + 'are the same type');
+} else if(age === arr){
+    console.log(age + 'and' + arr +'are the same type');
+} else if(age === answer){
+    console.log(age + 'and' + answer + 'are the same type');
+} else if(arr === answer){
+    console.log(arr + ' and ' + answer + 'are the same type');
+} else {
+    console.log('They are not the same')
+}
 
 //9. If x equals 7, and the only other statement is x = x % 3, what would be the new value of x ?
 //9.1 Add at least 3 console.log statements in which you show that you understand what % does.
