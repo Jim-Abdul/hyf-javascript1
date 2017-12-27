@@ -91,10 +91,10 @@ let age = 34;
 let arr = ['red', 'blue', 'black'];
 let answer = false;
 //8.2 For each variable write a console.log statement that logs the value
-console.log(name);
-console.log(age);
-console.log(arr);
-console.log(answer);
+console.log('The value of my variable name is: ' + name);
+console.log('The value of my variable age is: ' + age);
+console.log('The value of my variable arr is: ' + arr);
+console.log('The value of my variable answer is: ' + answer);
 //8.3 Now write a console.log statement wherein you first explain in words what you think the type of your variables is.
 console.log('the value of variable w will be my weight ');
 //8.4 Now use typeof to log the actual type of your variables.
