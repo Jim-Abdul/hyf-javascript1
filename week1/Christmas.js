@@ -1,3 +1,5 @@
+'use strict';
+
 
 //1. Write a console.log statement saying "Hello World!" for each language that you know.
 
@@ -131,7 +133,7 @@ if (name === age) {
 //9. If x equals 7, and the only other statement is x = x % 3, what would be the new value of x ?
 //9.1 Add at least 3 console.log statements in which you show that you understand what % does.
 
-'use strict';
+
 let x = 7;
 x = x % 3;
 console.log(x);
