@@ -49,16 +49,16 @@ console.log('my favorite animal');
 //5.4 Console.log a.
 //5.5 So now we have z and a find a way to compare the two values and store the highest of the two in a new variable.
 
-var z = 7.25;
+let z = 7.25;
 console.log(z);
-var a = Math.round(z);
+let a = Math.round(z);
 console.log(a);
 
-var m ="";
+let m ="";
 if (z > a) {
-    var m = z;
+    let m = z;
  }
-else{var m = a}
+else{let m = a}
 
 console.log(m);
 
@@ -71,10 +71,10 @@ console.log(m);
 //6.6 Add a statement that adds Daan's favorite animal ('baby pig') to the existing array.
 //6.7 Log your new array!
 
-var myFavoriteAnimals = ["","",""];
+let myFavoriteAnimals = ["","",""];
 console.log("myFavoriteAnimals");
 console.log(myFavoriteAnimals);
-var myFavoriteAnimals = ["Cat","Dog","Tiger","Eagle"];
+let myFavoriteAnimals = ["Cat","Dog","Tiger","Eagle"];
 console.log(myFavoriteAnimals);
 myFavoriteAnimals.push('baby pig');
 console.log(myFavoriteAnimals);
