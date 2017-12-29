@@ -1,4 +1,5 @@
-'use strict';
+
+"use strict";
 
 
 //1. Write a console.log statement saying "Hello World!" for each language that you know.
@@ -22,10 +23,13 @@ console.log("I'm awesome");
 //3.5 Next, add a console.log statement that explains what you think the value of x is.
 //3.6 Add a console.log statement that logs the value of x.Steps to be taken:
 
-console.log('the value of my variable x will be the quantity of passengers');       
-console.log(x);
+//let x;
+console.log('the value of my variable x will be the quantity of passengers');
+//console.log(x);
 let x = 6;
-console.log(3);
+console.log('the value of my variable x will be 6');
+console.log(x);
+
 
 
 
@@ -36,11 +40,12 @@ console.log(3);
 //4.4 Just like you did before write a console.log statement that explains in words what you think will be logged to the console.
 //4.5 Now console.log y again.
 
-let y = "Jim";
+//let y = "Jim";
 console.log('the value of my string will be: name');
-console.log(y);
+//console.log(y);
 let y = "Cat";
 console.log('my favorite animal');
+console.log(y);
 
 //5. How do you round the number 7.25, to the nearest integer(i.e., whole number) ?
 //5.1 Declare a variable z and assign the number 7.25 to it.
@@ -54,11 +59,11 @@ console.log(z);
 let a = Math.round(z);
 console.log(a);
 
-let m ="";
+let m = "";
 if (z > a) {
     let m = z;
- }
-else{let m = a}
+}
+else { let m = a }
 
 console.log(m);
 
@@ -71,10 +76,10 @@ console.log(m);
 //6.6 Add a statement that adds Daan's favorite animal ('baby pig') to the existing array.
 //6.7 Log your new array!
 
-let myFavoriteAnimals = ["","",""];
-console.log("myFavoriteAnimals");
-console.log(myFavoriteAnimals);
-let myFavoriteAnimals = ["Cat","Dog","Tiger","Eagle"];
+let myEmptyArray = ['','',''];
+console.log('My array is still empty');
+console.log(myEmptyArray);
+let myFavoriteAnimals = ["Cat", "Dog", "Tiger", "Eagle"];
 console.log(myFavoriteAnimals);
 myFavoriteAnimals.push('baby pig');
 console.log(myFavoriteAnimals);
@@ -115,16 +120,16 @@ console.log(typeof arr);
 console.log(typeof answer);
 
 if (name === age) {
-    console.log(name + 'and' + age + 'are the same type');    
-} else if(name === arr){
+    console.log(name + 'and' + age + 'are the same type');
+} else if (name === arr) {
     console.log(name + 'and' + arr + 'are the same type');
-} else if(name === answer){
+} else if (name === answer) {
     console.log(name + 'and' + answer + 'are the same type');
-} else if(age === arr){
-    console.log(age + 'and' + arr +'are the same type');
-} else if(age === answer){
+} else if (age === arr) {
+    console.log(age + 'and' + arr + 'are the same type');
+} else if (age === answer) {
     console.log(age + 'and' + answer + 'are the same type');
-} else if(arr === answer){
+} else if (arr === answer) {
     console.log(arr + ' and ' + answer + 'are the same type');
 } else {
     console.log('They are not the same')
@@ -134,20 +139,20 @@ if (name === age) {
 //9.1 Add at least 3 console.log statements in which you show that you understand what % does.
 
 
-let x = 7;
-x = x % 3;
-console.log(x);
-//The value of x will be: 1
+let i = 7;
+//i = i % 3;
+console.log(i%3);
+//The value of i will be: 1
 
-let x = 7;
-x = x % 5;
-console.log(x);
-//The value of x will be : 2
+    
+//i = i % 5;
+console.log(i%5);
+//The value of i will be : 2
 
-let x = 7;
-x = x % 4;
-console.log(x);
-//The value of x will be : 3
+
+//i = i % 4;
+console.log(i%4);
+//The value of i will be : 3
 
 console.log("the operation % calculate the Remainder of the division between the values ");
         
@@ -155,16 +160,17 @@ console.log("the operation % calculate the Remainder of the division between the
 //10.1 Can you store multiple types in an array ? Numbers and strings ? Make an example that illustrates your answer.
 //10.2 Can you compare infinities ? (Not in Eyad's world) - does 6/0 === 10/0? How can you test this?
 //10.3 Add console.log statements to the above program's in which you show that you understand the concepts (just like you've done in the above assignments).
-'use strict';
+
 
 let myArr = [ "Hi", "Bye", 2017, 2018];
 console.log(myArr);
 console.log("We can store multiple types in an array.");
 
-let x = 6;
-let y = 10;
-if (x / 0 === y / 0) {
+let e = 6;
+let f = 10;
+if (e / 0 === f / 0) {
     console.log(true);
 } else {
     console.log(false);
 }
+
